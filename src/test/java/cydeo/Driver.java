@@ -40,6 +40,7 @@ public class Driver {
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
                         desiredCapabilities.setBrowserName("chrome");
                         driver = new RemoteWebDriver(url, desiredCapabilities);
+                        System.out.println("Is working yeye");
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
